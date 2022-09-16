@@ -58,7 +58,7 @@ displayBook = () => {
                 </div>
                 <div class="pagesCard">
                     <td>
-                        <p>Title</p>
+                        <p>Pages</p>
                         <p>${newBook.pages}</p>
                     </td>
                 </div>
