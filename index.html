@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="header">
+        <h2 class="logo">Library</h2>
+    </div>
+
+    <div class="main-container">
+
+        <!--Library Form-->
+        <div class="form">
+            <form action="#">
+
+                <div class="title-div">
+                    <label for="title">Book</label>
+                    <input type="text" name="title" class="title">
+                </div>
+
+                <div class="author-div">
+                    <label for="author">Author</label>
+                    <input type="text" name="author" class="author">
+                </div>
+
+                <div class="pages-div">
+                    <label for="pages">Pages</label>
+                    <input type="number" name="pages" class="pages">
+                </div>
+
+                <div class="status-div">
+                    <label for="read">Status</label>
+                    <select name="read" class="read">
+                        <option value="read">Read</option>
+                        <option value="not read">Not Read</option>
+                    </select>
+                
+
+                <input type="submit" value="submit" class="submit">
+
+                </div>   
+            </form>
+        </div>
+
+    </div>   
+
+        <!--Display Books -->
+        <div class="display-container">
+            <div class="tableDisplay"></div>
+        </div>
+
+
+    <script src="app.js"></script>
+</body>
+</html>
